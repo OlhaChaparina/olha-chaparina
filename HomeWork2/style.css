@@ -1,0 +1,30 @@
+header {
+    text-align: center;
+    background-color: rgb(223, 223, 188);
+    font-size: 30px;  
+}
+h1 {
+    font-size: 40px;
+}
+p {
+    font-size: 20px;
+    text-align: left;
+}
+img {
+    height: 300px;
+    width: 520px;
+}
+.header1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px 350px 30px 350px;
+    list-style-type: none;
+    padding: 15px;
+}
+.text1 {
+    font-size: 20px;
+}
+article{
+    margin-top: 80px;
+}
