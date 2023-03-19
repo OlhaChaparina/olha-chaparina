@@ -1,6 +1,6 @@
 header {
     text-align: center;
-    background-color: rgb(223, 223, 188);
+    background-color: rgb(201, 209, 238);
     font-size: 30px;  
 }
 h1 {
@@ -27,4 +27,8 @@ img {
 }
 article{
     margin-top: 80px;
+}
+body{
+    min-width: 1170px;
+    background-color: rgb(252, 250, 160);
 }
