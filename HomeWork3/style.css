@@ -90,9 +90,11 @@ button {
     margin: auto;
 
 }
-.secondbanner a{
+
+.secondbanner a {
     color: white;
 }
+
 .secondbanner p {
     width: 689px;
     height: 20px;
@@ -329,7 +331,7 @@ button {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    
+
 }
 
 .sixthbanner h3 {
@@ -357,7 +359,7 @@ button {
     box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
     border-radius: 6px;
     margin-right: 10px;
-    
+
 
 }
 
@@ -373,4 +375,132 @@ button {
     background: #40C1A7;
     box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
     border-radius: 6px;
+}
+
+.flex3 {
+    display: flex;
+    margin-top: 72px;
+}
+
+.seventhbanner {
+    font-family: 'Inter', sans-serif;
+    width: 320px;
+    height: 260px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(186, 226, 255, 0.15) 23.96%, rgba(229, 217, 255, 0.15) 71.87%, rgba(255, 255, 255, 0.15) 100%), #FFFFFF;
+    box-shadow: 0px 8px 32px rgba(10, 3, 89, 0.1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 73px;
+}
+
+.seventhbanner h2 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    text-align: center;
+    color: #15295A;
+    padding-top: 32px;
+    margin-bottom: 0;
+    margin-top: 0;
+
+
+}
+
+.seventhbanner p {
+    width: 256px;
+    height: 72px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #15295A;
+    margin: 5px 0 32px 0;
+
+
+}
+
+.seventhbanner button {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 121px;
+    height: 44px;
+    background: #4A7EFF;
+    border-radius: 43px;
+    margin-bottom: 32px;
+
+
+}
+
+.flex4 {
+    display: flex;
+    padding-top: 12px;
+
+}
+
+.eighthbanner {
+    padding: 16px;
+    width: 300px;
+    height: 110px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 32px rgba(10, 3, 89, 0.1);
+    border-radius: 4px;
+
+}
+
+.eighthbanner p {
+    width: 300px;
+    height: 60px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: start;
+    margin: 0%;
+
+}
+
+.eighthbanner a {
+    width: 95px;
+    height: 17px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    color: #6666FF;
+    margin-right: 129px;
+    padding-top: 9px;
+    text-decoration: none;
+
+}
+
+.eighthbanner button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+    width: 64px;
+    height: 33px;
+    background: #6666FF;
+    border-radius: 4px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
 }
