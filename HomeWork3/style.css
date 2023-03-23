@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Lato:wght@300;400&family=Roboto:wght@300&display=swap');
 
-.general {
-    background-color: #f7e3e7;
+body{
+    min-width: 1170px;
+    background-color: #f5dcf1;
 }
 
 .firstbanner {
