@@ -39,9 +39,44 @@ main {
     font-weight: 400;
     font-size: 14px;
     line-height: 140%;
-    text-align: start;
     color: #FFFFFF;
 }
-.icons{
+
+.icons {
     margin-top: 40px;
+}
+
+.second_section {
+    width: 1440px;
+    height: 500px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    gap: 156px;
+}
+
+.text2 h2 {
+    width: 445px;
+    height: 107px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+}
+
+.text2 p {
+    width: 434px;
+    height: 64px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.forms {
+    width: 540px;
+    height: 305px;
 }
