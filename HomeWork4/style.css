@@ -6,11 +6,11 @@ main {
 
 .first_section {
     background-color: #ED4C5C;
-    width: 1440px;
+    width: 1575px;
     height: 500px;
     display: flex;
     justify-content: center;
-    gap: 81px;
+    gap: 150px;
 }
 
 .text1 h1 {
@@ -47,7 +47,7 @@ main {
 }
 
 .second_section {
-    width: 1440px;
+    width: 1575px;
     height: 500px;
     background: #FFFFFF;
     display: flex;
@@ -57,7 +57,7 @@ main {
 
 .text2 h2 {
     width: 445px;
-    height: 107px;
+    height: 80px;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 600;
@@ -76,7 +76,116 @@ main {
     line-height: 140%;
 }
 
+.text2 {
+    margin-top: 117px;
+}
+
 .forms {
     width: 540px;
     height: 305px;
+    margin-top: 117px;
+
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+#name {
+    box-sizing: border-box;
+    width: 255px;
+    height: 60px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+
+#name::placeholder {
+    width: 78px;
+    height: 19px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+    padding-left: 31px;
+}
+
+#lastname {
+    box-sizing: border-box;
+    width: 255px;
+    height: 60px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+}
+
+#lastname::placeholder {
+    width: 75px;
+    height: 19px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: rgba(19, 39, 67, 0.5);
+    padding-left: 31px;
+
+}
+
+#number {
+    width: 528px;
+    height: 60px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    margin-top: 24px;
+}
+
+#number::placeholder {
+    width: 106px;
+    height: 19px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 31px;
+    color: rgba(19, 39, 67, 0.5);
+}
+
+#sel {
+    box-sizing: border-box;
+    width: 534px;
+    height: 63px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    margin-top: 24px;
+}
+
+select {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+    padding-left: 31px;
+}
+
+
+.submit_button {
+    width: 160px;
+    height: 50px;
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    border-radius: 6px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 41px;
 }
