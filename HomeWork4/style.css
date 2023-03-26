@@ -6,8 +6,7 @@ main {
 
 .first_section {
     background-color: #ED4C5C;
-    width: 1575px;
-    height: 500px;
+    max-width: 1575px;
     display: flex;
     justify-content: center;
     gap: 150px;
@@ -30,6 +29,7 @@ main {
     width: 533px;
     height: 311px;
     margin-top: 90px;
+    padding-bottom: 90px;
 }
 
 .text1 p {
@@ -44,15 +44,16 @@ main {
 
 .icons {
     margin-top: 40px;
+    cursor: pointer;
 }
 
 .second_section {
-    width: 1575px;
-    height: 500px;
+    max-width: 1575px;
     background: #FFFFFF;
     display: flex;
     justify-content: center;
     gap: 156px;
+    margin-bottom: 45px;
 }
 
 .text2 h2 {
@@ -78,6 +79,7 @@ main {
 
 .text2 {
     margin-top: 117px;
+    padding-bottom: 223px;
 }
 
 .forms {
@@ -90,6 +92,7 @@ main {
 button {
     cursor: pointer;
     border: none;
+
 }
 
 #name {
@@ -188,4 +191,119 @@ select {
     text-transform: uppercase;
     color: #FFFFFF;
     margin-top: 41px;
+
+}
+
+footer {
+    max-width: 1575px;
+    background: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer_text1 h5 {
+    width: 65px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+    padding-top: 80px;
+
+}
+
+.footer_text1 p {
+    width: 254px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+
+}
+
+.bottom_text {
+    padding-top: 86px;
+    padding-bottom: 86px;
+
+}
+
+.footer_text2 h5 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    padding-left: 37px;
+    padding-top: 80px;
+
+
+
+}
+
+.footer_text2 ul {
+    width: 254px;
+    list-style: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #000000;
+
+}
+
+.footer_text3 {
+    width: 254px;
+}
+
+.footer_text3 h5 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    padding-top: 80px;
+}
+
+#img1 {
+    padding-right: 16px;
+
+}
+
+#img2 {
+    padding-right: 16px;
+}
+
+.footer_text3 img {
+    padding-top: 21px;
+    cursor: pointer;
+}
+.foot_p{
+    cursor: pointer;
+}
+.foot_p2{
+    cursor: pointer;
+}
+
+.footer_text4 {
+    width: 254px;
+}
+
+.footer_text4 h5 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    padding-top: 80px;
+
 }
