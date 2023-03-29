@@ -1,0 +1,45 @@
+body{
+    margin: auto;
+    background-color: rgb(44, 42, 42);
+    max-width: 1000px;
+    color: rgb(214, 219, 224);
+}
+.first_section{
+    margin-top: 100px;
+}
+img{
+    width: 10px;
+    cursor: pointer;
+}
+
+table{
+border: 2px solid #808080;
+border-radius: 4px;
+width: 100%;
+border-spacing: 0;
+
+}
+table tr th{
+    text-align: left;
+    width: 49%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+td{
+    border-top: 2px solid #808080;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+table tr{
+    height: 40px;
+}
+.second_section{
+    margin-top: 50px;
+}
+.third_section{
+    margin-top: 50px;
+}
+.img_pdf{
+width: 15px;
+}
