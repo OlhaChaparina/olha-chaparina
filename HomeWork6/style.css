@@ -1,16 +1,16 @@
 @import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
 @import url('https://fonts.cdnfonts.com/css/avenir');
 
-
-.wrapper {
+body{
     max-width: 1600px;
-    padding-left: 200px;
-    padding-right: 200px;
     background-image: url(./img/image1\ 1.png);
     background-repeat: no-repeat;
     background-position-x: 603px;
     background-position-y: 300px;
-
+}
+.wrapper {
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .header_ul {
@@ -21,7 +21,7 @@
     list-style: none;
     cursor: pointer;
     padding-top: 25px;
-    margin-right: 418px;
+    margin-right: 449px;
     font-weight: 500;
     font-size: 16px;
 }
@@ -63,7 +63,7 @@
 
 .first_section {
     display: flex;
-    
+
 }
 
 .headline button {
@@ -96,3 +96,28 @@
     color: #4B5D68;
 }
 
+.second_section {
+    margin-top: 200px;
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    display: flex;
+    gap: 100px;
+}
+.second_section h2{
+    width: 475px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+margin-top: 125px;
+}
+.second_section p{
+    width: 474px;
+    font-family: 'Avenir';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+color: #4B5D68;
+margin-top: 40px;
+margin-bottom: 125px;
+}
