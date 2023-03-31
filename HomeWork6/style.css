@@ -78,6 +78,7 @@ body {
     font-size: 18px;
     color: #FFFFFF;
     margin-top: 50px;
+    cursor: pointer;
 }
 
 .headline h1 {
@@ -125,12 +126,6 @@ body {
     margin-bottom: 125px;
 }
 
-.third_section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .third_section h3 {
     font-family: 'Helvetica';
     font-style: normal;
@@ -138,8 +133,9 @@ body {
     font-size: 40px;
     color: #212353;
     margin-top: 150px;
-    text-align: center;
     margin-bottom: 50px;
+    text-align: center;
+
 }
 
 .third_section p {
@@ -148,6 +144,93 @@ body {
     font-weight: 500;
     font-size: 18px;
     width: 584px;
-    text-align: center;
     color: #4B5D68;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.fourth_section_part1 {
+    margin-top: 160px;
+    display: flex;
+}
+
+.fourth_section_part1 h3 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+}
+
+.fourth_section_part1 p {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    width: 220px;
+    height: 160px;
+}
+
+.fourth_section_part1 a {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    color: #212353;
+    text-decoration: none;
+}
+
+.block {
+    display: flex;
+}
+.miniblock1 {
+    margin-left: 30px;
+    margin-right: 180px;
+}
+.image_miniblock {
+    margin-top: 60px;
+}
+.arrow {
+    padding-left: 10px;
+}
+.miniblock2 {
+    display: flex;
+}
+.image_miniblock1{
+    margin-top: 30px;
+}
+.miniblock3 {
+    margin-left: 30px;
+}
+.fourth_section_part2{
+    display: flex;
+}
+.block2{
+    display: flex;
+    margin-top: 130px;
+}
+.fourth_section_part2 h3{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+}
+.fourth_section_part2 p {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    width: 220px;
+    height: 160px;
+}
+.fourth_section_part2 a {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    color: #212353;
+    text-decoration: none;
 }
