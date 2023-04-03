@@ -8,7 +8,7 @@ body {
     background-position-x: 603px;
     background-position-y: 300px;
     background-color: #f8f6f6;
-    ;
+    
 }
 
 .wrapper {
@@ -439,7 +439,7 @@ body {
     font-size: 12px;
     line-height: 180%;
     color: #212353;
-    margin-top: 120px;
+    margin-top: 150px;
     
 
 }
@@ -452,6 +452,7 @@ body {
     font-size: 16px;
     color: #212353;
     padding-top: 15px;
+   padding-bottom: 30px;
 }
 
 .minipart2 ul {
@@ -476,6 +477,7 @@ body {
     line-height: 160%;
     color: #212353;
     padding-top: 15px;
+    padding-bottom: 30px;
 }
 
 .minipart3 ul {
@@ -499,6 +501,7 @@ line-height: 160%;
 color: #212353;
 margin-bottom: 30px;
 padding-top: 15px;
+padding-bottom: 30px;
 }
 .social_media_svg{
     cursor: pointer;
