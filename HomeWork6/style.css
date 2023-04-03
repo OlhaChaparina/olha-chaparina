@@ -403,6 +403,7 @@ body {
     font-size: 20px;
     line-height: 160%;
     color: #212353;
+    padding-bottom: 67px;
 }
 .logo_png{
     padding-right: 20px;
@@ -503,7 +504,7 @@ padding-top: 15px;
     cursor: pointer;
 }
 .help_png{
-    margin-top: 180px;
+    margin-top: 228px;
     text-align: right;
     cursor: pointer;
 }
