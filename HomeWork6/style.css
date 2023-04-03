@@ -2,7 +2,7 @@
 @import url('https://fonts.cdnfonts.com/css/avenir');
 
 body {
-    max-width: 1600px;
+    display: flex;
     background-image: url(./img/image1\ 1.png);
     background-repeat: no-repeat;
     background-position-x: 603px;
@@ -79,6 +79,7 @@ body {
     color: #FFFFFF;
     margin-top: 50px;
     cursor: pointer;
+    border: 1px solid transparent;
 }
 
 .headline h1 {
@@ -184,39 +185,49 @@ body {
 .block {
     display: flex;
 }
+
 .miniblock1 {
     margin-left: 30px;
     margin-right: 180px;
 }
+
 .image_miniblock {
     margin-top: 60px;
 }
+
 .arrow {
     padding-left: 10px;
 }
+
 .miniblock2 {
     display: flex;
 }
-.image_miniblock1{
+
+.image_miniblock1 {
     margin-top: 30px;
 }
+
 .miniblock3 {
     margin-left: 30px;
 }
-.fourth_section_part2{
+
+.fourth_section_part2 {
     display: flex;
 }
-.block2{
+
+.block2 {
     display: flex;
     margin-top: 130px;
 }
-.fourth_section_part2 h3{
+
+.fourth_section_part2 h3 {
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 130%;
 }
+
 .fourth_section_part2 p {
     font-family: 'Avenir';
     font-style: normal;
@@ -226,6 +237,7 @@ body {
     width: 220px;
     height: 160px;
 }
+
 .fourth_section_part2 a {
     font-family: 'Avenir';
     font-style: normal;
@@ -233,4 +245,67 @@ body {
     font-size: 16px;
     color: #212353;
     text-decoration: none;
+}
+.fifth_section{
+    margin-top: 185px;
+}
+
+.mini_wrapper {
+    background-color: #9C69E2;
+    padding: 110px 75px 62px 93px;
+    border-radius: 50px;
+
+    
+}
+
+.mini_wrapper h2 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 88px;
+}
+
+.mini_wrap2 {
+    display: flex;
+    background-color: #FFFFFF;
+    margin-right: 75px;
+    border-radius: 20px;
+    padding: 60px 103px 50px 103px;
+    margin: 0%;
+
+}
+.mini_wrap2 h3{
+    font-family: 'Avenir';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+color: #212353;
+margin: 0%;
+}
+.mini_wrap2 a{
+    text-decoration: none;
+    font-family: 'Avenir';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+color: #9C69E2;
+}
+.mini_wrap2 p{
+    font-family: 'Avenir';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #4B5D68;
+line-height: 180%;
+}
+.jhons_img{
+    margin-right: 45px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+    cursor: pointer;
 }
