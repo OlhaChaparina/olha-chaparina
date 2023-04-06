@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;1,200&family=Playfair+Display&family=Rochester&display=swap');
+
+.wrapper {
+    background-color: white;
+    max-width: 1126px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header_section {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    text-align: center;
+}
+
+.header_section a {
+    font-family: 'Rochester';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+    color: #1B2437;
+    text-decoration: none;
+}
+
+.social_media {
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    gap: 30px;
+    height: 25px;
+    text-align: center;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+hr {
+    opacity: 0.2;
+}
+
+.wrapper2 {
+    background-color: white;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    height: 60px;
+}
+
+.header_section2 a {
+    text-decoration: none;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    color: #000000;
+
+
+}
+
+.header_section2 nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner {
+    background-image: url(./img/hero.png) ;
+
+}
+
+.main_wrapper {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    height: 569px;
+}
+
+.text_banner {
+    padding-top: 103px;
+    padding-left: 165px;
+    text-align: left;
+}
+
+.text_banner h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 67px;
+    color: #FFFFFF;
+    width: 361px;
+    margin: 0;
+    text-align: left;
+}
+
+.text_banner p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    width: 446px;
+    margin-top: 13px;
+    margin-bottom: 34px;
+}
+.text_banner button{
+    font-family: 'Mulish', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 30px;
+	color: #FFFFFF;
+	background: #1B2437;
+	border-radius: 15px;
+	padding: 23px 78px;
+    border: 2px solid transparent;
+}
