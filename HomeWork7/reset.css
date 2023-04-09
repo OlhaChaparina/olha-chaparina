@@ -1,14 +1,14 @@
-html body div header a img hr ul li nav button {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
+body, h2, div, a, img, section, h1, h3, p, button, html, main{
+ margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-weight: inherit;
+font-style: inherit;
+font-size: 100%;
+font-family: inherit;
+vertical-align: baseline;
 }
 button{
     cursor: pointer;
-}
-li{
-   list-style: none;
 }
