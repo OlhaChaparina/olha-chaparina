@@ -1,0 +1,87 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
+
+body {
+    margin: 0 auto;
+
+}
+
+.block {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(182, 181, 181);
+    margin: 20px;
+    margin-bottom: 100px;
+}
+
+.blocks {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(6, 50px);
+    grid-column-gap: 150px;
+    grid-row-gap: 40px;
+    margin: auto;
+    max-width: 49%;
+    padding-bottom: 150px;
+
+}
+
+.block:nth-child(n+21) {
+    background-color: blue;
+}
+
+.block:nth-child(4n-1) {
+    background-color: tomato;
+}
+
+button {
+    margin: 0 auto;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #44D3A8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    border: transparent;
+    padding: 30px 70px;
+    cursor: pointer;
+    position: relative;
+}
+
+button::after, button::before {
+    content: '';
+    border-top: 2px solid #C4C4C4;
+    border-bottom: 2px solid #C4C4C4;
+    width: 200px;
+    height: 8px;
+    position: absolute;
+
+}
+
+button::before {
+    left: -250px;
+}
+
+button::after {
+    right: -250px;
+}
+
+button:hover{
+    background: #3a8670;
+    transition: 0.5s
+ }
+ button:hover::after{
+    border-top: 2px solid #3a8670;
+    border-bottom: 2px solid #3a8670;
+    transition: 0.5s
+ }
+ button:hover::before{
+    border-top: 2px solid #3a8670;
+    border-bottom: 2px solid #3a8670;
+    transition: 0.5s
+ }
