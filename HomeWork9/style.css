@@ -2,9 +2,6 @@
 @import url('https://fonts.cdnfonts.com/css/lato');
 @import url('https://fonts.cdnfonts.com/css/roboto');
 
-.first_section {
-    /* background-color: #F4F6F9; */
-}
 
 .wrapper {
     max-width: 1440px;
@@ -56,6 +53,7 @@
     display: flex;
     background: #000000;
     border-radius: 7.33503px;
+    margin-bottom: 164px;
 }
 
 .button_dwnld svg {
@@ -83,14 +81,80 @@
 
 }
 
-
 .buttons {
     display: flex;
     gap: 36px;
 }
-.h2_button{
+
+.h2_button {
     padding-right: 35px;
 }
-.h2_button2{
+
+.h2_button2 {
     padding-right: 10px;
+}
+
+.wrapper2 {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+
+}
+
+.photos {
+    background: linear-gradient(270deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), rgba(255, 255, 255, 0.5) url(../HomeWork9/img/Rectangle.png) no-repeat;
+}
+
+.photos {
+    padding: 80px 150px 77px 160px;
+}
+
+.container2 {
+    display: flex;
+    /* justify-content: space-around; */
+
+}
+
+.whatitdoes p:nth-child(1) {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00ADEE;
+    padding-top: 133px;
+    padding-bottom: 27px;
+}
+
+.whatitdoes h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    color: #333333;
+    padding-bottom: 27px;
+}
+
+.whatitdoes p:nth-child(n+2) {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #4F4F4F;
+}
+
+.whatitdoes p:nth-child(n+3) {
+    padding-bottom: 22px;
+}
+
+.whatitdoes a {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00ADEE;
+    
 }
