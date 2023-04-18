@@ -115,6 +115,10 @@
 
 }
 
+.whatitdoes {
+    max-width: 419px;
+}
+
 .whatitdoes p:nth-child(1) {
     font-family: 'Lato';
     font-style: normal;
@@ -156,5 +160,65 @@
     font-size: 16px;
     line-height: 21px;
     color: #00ADEE;
-    
+}
+
+.wrapper3 {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    background: url(../HomeWork9/img/Group\ 672\ \(1\).png) no-repeat;
+}
+
+.container3 {
+    display: flex;
+    gap: 235px;
+}
+
+.getstarted {
+    max-width: 480px;
+    margin-left: 162px;
+}
+
+.getstarted p:nth-child(1) {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00ADEE;
+    padding-top: 217px;
+    padding-bottom: 27px;
+}
+
+.getstarted h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    color: #333333;
+    padding-bottom: 27px;
+}
+.getstarted p:nth-child(n+2) {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #4F4F4F;
+}
+.getstarted p:nth-child(n+3) {
+    padding-bottom: 22px;
+}
+.getstarted a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00ADEE;
+}
+.photo{
+    padding-top: 130px;
+    padding-bottom: 90px;
 }
