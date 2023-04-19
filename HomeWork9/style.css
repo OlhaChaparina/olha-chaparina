@@ -199,6 +199,7 @@
     color: #333333;
     padding-bottom: 27px;
 }
+
 .getstarted p:nth-child(n+2) {
     font-family: 'Lato';
     font-style: normal;
@@ -207,10 +208,12 @@
     line-height: 23px;
     color: #4F4F4F;
 }
+
 .getstarted p:nth-child(n+3) {
     padding-bottom: 22px;
 }
-.getstarted a{
+
+.getstarted a {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
@@ -218,7 +221,66 @@
     line-height: 21px;
     color: #00ADEE;
 }
-.photo{
+
+.photo {
     padding-top: 130px;
     padding-bottom: 90px;
+}
+
+.wrapper4 {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    background: url(./img/Group\ 696.png)no-repeat;
+}
+
+.container4 {
+    display: grid;
+    grid-template-columns: repeat(3, 311px);
+    grid-template-rows: repeat(3, 170px);
+    justify-content: center;
+    grid-column-gap: 90px;
+    grid-row-gap: 20px;
+}
+
+.wrapper4 h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 76px;
+    padding-bottom: 58px;
+}
+
+.particle p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+    
+}
+
+.particle p::before {
+    content: "•";
+    color: #FFFFFF;
+    padding-right: 5px;
+}
+.particle1 p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding-bottom: 66px;
+}
+.particle1 p::before {
+    content: "•";
+    color: #FFFFFF;
+    padding-right: 5px;
 }
