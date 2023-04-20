@@ -53,7 +53,8 @@
     display: flex;
     background: #000000;
     border-radius: 7.33503px;
-    margin-bottom: 164px;
+   
+   
 }
 
 .button_dwnld svg {
@@ -84,6 +85,7 @@
 .buttons {
     display: flex;
     gap: 36px;
+    padding-bottom: 164px;
 }
 
 .h2_button {
@@ -312,33 +314,161 @@
     padding-top: 70px;
     padding-bottom: 60px;
 }
-.arrow button{
+
+.arrow button {
     background-color: #FFFFFF;
     border-radius: 100%;
     border: 1px solid #00ADEE;
 }
-.arrow_size{
+
+.arrow_size {
     padding: 18px 23px 15px 20px;
 }
-.arrow button:hover{
+
+.arrow button:hover {
     border: 2px solid #0285b4;
 }
-.arrow2 button{
+
+.arrow2 button {
     background-color: #FFFFFF;
     border-radius: 100%;
     border: 1px solid #00ADEE;
 }
-.arrow_size2{
+
+.arrow_size2 {
     padding: 18px 20px 15px 23px;
 }
-.arrow2 button:hover{
+
+.arrow2 button:hover {
     border: 2px solid #0285b4;
 }
-.dots{
+
+.dots {
     text-align: center;
     margin-top: 47px;
     margin-bottom: 50px;
 }
-.dots svg{
+
+.dots svg {
     cursor: pointer;
+}
+
+.wrapper6 {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FAFAFA;
+
+}
+
+.container6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.container6 img {
+    margin-bottom: 60px;
+}
+
+.wrapper6 h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    color: #333333;
+    text-align: center;
+    padding-top: 57px;
+    padding-bottom: 75px;
+}
+
+.wrapper7 {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    height: 483px;
+}
+
+.container7 {
+    display: flex;
+    gap: 77px;
+}
+
+.text_block {
+    margin-top: 105px;
+}
+
+.text_block h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    color: #333333;
+}
+
+.text_block p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #4F4F4F;
+    margin-top: 35px;
+    padding-bottom: 38px;
+    max-width: 535px;
+}
+.buttons2 {
+    display: flex;
+    gap: 36px;
+}
+
+.wrapper_foot {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    background-color: #00ADEE;
+    
+}
+
+.container_foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo2{
+    padding-left: 163px;
+}
+
+.text_logo {
+    font-family: 'Product Sans';
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.support a {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.support ul{
+    display: flex;
+    gap: 37px;
+    padding: 52px 0 52px 0;
+}
+.icons{
+    padding-right: 162px;
+}
+.icons a:nth-child(1){
+    padding-right: 17px;
+}
+.icons a:nth-child(2){
+    padding-right: 17px;
 }

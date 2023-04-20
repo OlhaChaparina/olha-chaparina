@@ -1,17 +1,38 @@
-body, h2, div, span, svg, a, img, section, h1, h3, p, button, html, main, ul, li {
+body,
+h2,
+div,
+span,
+svg,
+a,
+img,
+section,
+footer,
+h1,
+h3,
+p,
+button,
+html,
+main,
+ul,
+li {
     margin: 0;
-   padding: 0;
-   border: 0;
-   outline: 0;
-   font-weight: inherit;
-   font-style: inherit;
-   font-size: 100%;
-   font-family: inherit;
-   vertical-align: baseline;
-   }
-   button{
-       cursor: pointer;
-   }
-   a{
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
     text-decoration: none;
-   }
+}
+ul li{
+    list-style: none;
+}
