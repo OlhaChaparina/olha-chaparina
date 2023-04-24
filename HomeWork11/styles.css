@@ -1,0 +1,19 @@
+.input_search {
+    text-align: center;
+    width: 216px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+
+.button {
+    padding: 6px 26px;
+    background: #4094EF;
+    border-radius: 3px;
+    border: #4094EF;
+}
+.button2{
+    width: 40px;
+    background: #4094EF;
+    border-radius: 3px;
+    border: #4094EF;
+}
