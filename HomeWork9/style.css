@@ -2,15 +2,18 @@
 @import url('https://fonts.cdnfonts.com/css/lato');
 @import url('https://fonts.cdnfonts.com/css/roboto');
 
+.first_section {
+    background: url(../HomeWork9/img/Frame.png) no-repeat;
+    background-color: #F4F6F9;
+    background-position-x: 100%;
+    background-position-y: 0%;
+}
 
 .wrapper {
     max-width: 1440px;
     width: 100%;
     margin: auto;
-    background: url(../HomeWork9/img/Frame.png) no-repeat;
-    background-color: #F4F6F9;
-    background-position-x: 100%;
-    background-position-y: 0%;
+
 }
 
 .container {
@@ -105,17 +108,20 @@
 
 }
 
-.photos {
+.second_section {
     background: linear-gradient(270deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), rgba(255, 255, 255, 0.5) url(../HomeWork9/img/Rectangle.png) no-repeat;
+    background-position-x: left;
 }
 
-.photos {
-    padding: 80px 150px 77px 160px;
+.bgfootball_photo {
+    padding: 80px 400px 77px 0px;
+
 }
+
 
 .container2 {
     display: flex;
-    /* justify-content: space-around; */
+
 
 }
 
@@ -166,11 +172,16 @@
     color: #00ADEE;
 }
 
+.third_section {
+    background: url(../HomeWork9/img/Group\ 672\ \(1\).png) no-repeat;
+    background-position-x: 55%;
+}
+
 .wrapper3 {
     max-width: 1440px;
     width: 100%;
     margin: auto;
-    background: url(../HomeWork9/img/Group\ 672\ \(1\).png) no-repeat;
+
 }
 
 .container3 {
@@ -231,11 +242,16 @@
     padding-bottom: 90px;
 }
 
+.fourth_section {
+    background: url(./img/Group\ 696.png) 100%/cover no-repeat;
+
+}
+
 .wrapper4 {
     max-width: 1440px;
     width: 100%;
     margin: auto;
-    background: url(./img/Group\ 696.png)no-repeat;
+
 }
 
 .container4 {
@@ -355,11 +371,16 @@
     cursor: pointer;
 }
 
+.sixth_section {
+
+    background: #FAFAFA;
+}
+
 .wrapper6 {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-    background-color: #FAFAFA;
+
 
 }
 
@@ -387,7 +408,7 @@
 }
 
 .wrapper7 {
-    max-width: 1440px;
+    /* max-width: 1440px; */
     width: 100%;
     margin: 0 auto;
     /* height: 483px; */
@@ -396,7 +417,7 @@
 .container7 {
     display: flex;
 
-    gap: 77px;
+    gap: 120px;
 }
 
 .text_block {
@@ -429,11 +450,15 @@
     gap: 36px;
 }
 
+footer {
+    background-color: #00ADEE;
+}
+
 .wrapper_foot {
     max-width: 1440px;
     width: 100%;
     margin: auto;
-    background-color: #00ADEE;
+
 
 }
 
@@ -490,18 +515,100 @@
     width: auto;
 }
 
-@media (max-width: 720px) {
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .first_section {
+        background: none;
+        background-color: #F4F6F9;
+        margin: 0%;
+    }
+
+    .text_section {
+        margin: 0%;
+    }
+
+    .second_section {
+        background: none;
+
+    }
+
+    .container2 {
+        justify-content: center;
+    }
+
+    .whatitdoes {
+        max-width: 418px;
+    }
+    .bgfootball_photo {
+        padding: 50px 100px 60px 60px;
+        max-width: 400px;
+    }
+
+    .whatitdoes p:nth-child(1) {
+        padding-top: 70px;
+    }
+
+
+    .getstarted p:nth-child(1) {
+        padding-top: 50px;
+    }
+    .photo{
+        padding-top: 70px;
+    }
+    .third_section{
+        background: none;
+    }
+    .container3 {
+        gap: 100px;
+        justify-content: center;
+    }
+    .getstarted{
+        max-width: 415px;
+    }
+    .container4{
+        grid-template-columns: repeat(3, 250px);
+        grid-template-rows: repeat(3, 170px);
+      grid-column-gap: 15px;
+    }
+    .response3{
+        display: none;
+    }
+    .container5{
+        grid-template-columns: 47px 309px 309px 74px ;
+    }
+    .container6{
+        gap: 20px;
+    }
+    .container7{
+        gap: 40px;
+    }
+    .lastphone_photo{
+        max-width: 500px;
+    }
+    .text_block{
+        margin-top: 40px;
+    }
+
+}
+
+@media (max-width: 930px) {
     .wrapper {
         background: none;
         background-color: #F4F6F9;
     }
 
     .container {
-        /* margin: 0 auto; */
+        margin: 0 auto;
         padding: 34px 20px 60px 20px;
+        max-width: 500px;
         text-align: center;
-
     }
+
 
 
     .buttons {
@@ -510,16 +617,20 @@
         gap: 5px;
     }
 
+
     .text_section h1 {
+        max-width: 930px;
         margin-top: 85px;
         font-size: 30px;
         line-height: 40px;
         letter-spacing: 0.03em;
         text-align: center;
 
+
     }
 
     .text_section p {
+        max-width: 930px;
         font-family: 'Lato';
         font-style: normal;
         font-weight: 400;
@@ -531,10 +642,17 @@
         flex-direction: column-reverse;
     }
 
+    .second_section {
+        background: none;
+    }
+
+
     .whatitdoes {
+        max-width: 320px;
         text-align: center;
         margin: 0 auto;
         padding: 25px 20px;
+        max-width: 500px;
     }
 
     .whatitdoes p:nth-child(1) {
@@ -543,10 +661,14 @@
 
     .photos {
         padding: 40px 20px;
+        background: url(./img/Rectangle.png) no-repeat;
+
     }
 
     .bgfootball_photo {
-        width: 320px;
+        width: 360px;
+        padding: 100px 100px 60px 0px;
+
     }
 
     .wrapper3 {
@@ -573,6 +695,7 @@
         text-align: center;
         margin: 0 auto;
         padding: 0 20px;
+        max-width: 500px;
 
     }
 
@@ -607,6 +730,8 @@
         text-align: center;
         padding-left: 25px;
         padding-right: 25px;
+        max-width: 500px;
+        margin: auto;
     }
 
     .container4 p {
@@ -687,15 +812,22 @@
         text-align: center;
         margin: 0;
         padding: 20px 20px 37px 20px;
+       max-width: 500px;
+       margin: auto;
     }
 
+    .text_block p{
+        max-width: 930px;
+    }
     .buttons2 {
         padding: 0 20px 45px 20px;
         gap: 10px;
+        justify-content: center;
     }
 
     .lastphone_photo {
         max-width: 360px;
+
     }
 
     .container_foot {
@@ -713,5 +845,11 @@
     .support ul {
         padding: 0;
         gap: 18px;
+    }
+}
+@media (max-width: 450px) {
+    .bgfootball_photo {
+        max-width: 300px;
+        padding-left: 20px;
     }
 }
