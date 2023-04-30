@@ -136,12 +136,17 @@
     max-width: 950px;
     margin: auto;
 }
+.button-more{
+    border: none;
+    background: transparent;
+}
 
 @media (max-width: 500px) {
     .photo {
-     margin-bottom: 30px;
+     margin-bottom: 25px;
     }
     .input_search{
         display: none;
     }
+    
 }
