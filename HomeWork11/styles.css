@@ -5,6 +5,7 @@
     width: 216px;
     border: 1px solid #DBDBDB;
     border-radius: 3px;
+    outline: none;
 }
 
 .button {
@@ -37,7 +38,7 @@
 }
 
 .followers {
-    font-family: 'Helvetica Neue';
+    font-family: 'Helvetica 45 Light', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -47,7 +48,7 @@
 }
 
 .name2 {
-    font-family: 'Helvetica Neue';
+    font-family: 'Helvetica 45 Light', sans-serif;;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -57,18 +58,17 @@
 }
 
 .lorem {
-    font-family: 'Helvetica Neue';
+    font-family: 'Helvetica 45 Light', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 17px;
-
     color: #262626;
     max-width: 531px;
 }
 
 .link {
     text-decoration: none;
-    font-family: 'Helvetica Neue';
+    font-family: 'Helvetica 45 Light', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -132,14 +132,21 @@
 
 }
 
-.container-mine2 {
-    max-width: 950px;
-    margin: auto;
-}
+
 .button-more{
     border: none;
     background: transparent;
 }
+.block_1{
+    display: flex;
+     justify-content: space-around;
+     
+ }
+ .content img{
+    width: 100%;
+    height: 400px;
+    
+ }
 
 @media (max-width: 500px) {
     .photo {
@@ -147,6 +154,5 @@
     }
     .input_search{
         display: none;
-    }
-    
+    }   
 }
