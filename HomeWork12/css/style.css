@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+body {
+  background: url(../img/background.png) no-repeat 100% 0%;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: auto;
+}
+
+.header-block {
+  padding-top: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-block p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 38px;
+  color: #37447E;
+  margin-right: 30px;
+}
+
+.header-block button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #FFFFFF;
+  background: #111B47;
+  border-radius: 2px;
+  padding: 5px 70px;
+}
+
+.header-block button:hover {
+  background: transparent;
+  border: 2px solid #111B47;
+  color: #111B47;
+  padding: 3px 68px;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 60px;
+}
+
+.navigation a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #505F98;
+}
+
+.first-section {
+  margin-top: 260px;
+}
+
+.text-block h1 {
+  max-width: 539px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 66px;
+  letter-spacing: 1px;
+  color: #091133;
+  margin-bottom: 20px;
+}
+
+.text-block p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #505F98;
+  max-width: 539px;
+}
+
+.text-block p:last-child {
+  padding-top: 10px;
+  margin-bottom: 75px;
+}
+
+.buttons {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  border-radius: 2px;
+}
+
+.first-button {
+  background: #111B47;
+  color: white;
+  padding: 5px 40px;
+  margin-right: 30px;
+}
+
+.second-button {
+  background: #111B47;
+  color: white;
+  padding: 5px 53px;
+}
+
+.first-button:hover {
+  background: transparent;
+  border: 2px solid #111B47;
+  color: #111B47;
+  padding: 3px 40px;
+  margin-right: 26px;
+}
+
+.second-button:hover {
+  background: transparent;
+  border: 2px solid #111B47;
+  color: #111B47;
+  padding: 3px 51px;
+}
