@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1300px;
     width: 100%;
     margin: auto;
 }
@@ -17,14 +17,14 @@ body {
     align-items: center;
 }
 
-.header-block p {
+.header-block a {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
     font-size: 26px;
     line-height: 38px;
     color: #37447E;
-    margin-right: 30px;
+    
 }
 
 .header-block button {
