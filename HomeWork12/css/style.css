@@ -1,12 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+.text-block5 h2, .text-block4 h2, .text-block3 h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  color: #091133;
+}
+.text-block5 p, .text-block4 p, .text-block3 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6F7CB2;
+  max-width: 445px;
+}
+.text-block5 p:last-child, .text-block4 p:last-child, .text-block3 p:last-child {
+  margin-top: 10px;
+}
+
 body {
   background: url(../img/background.png) no-repeat 100% 0%;
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1200px;
   width: 100%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .header-block {
@@ -22,7 +43,7 @@ body {
           align-items: center;
 }
 
-.header-block a {
+.logo {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
@@ -132,4 +153,299 @@ body {
   border: 2px solid #111B47;
   color: #111B47;
   padding: 3px 51px;
+}
+
+.second-section {
+  margin-top: 390px;
+}
+
+.text-block2 h2 {
+  max-width: 539px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 66px;
+  letter-spacing: 1px;
+  color: #091133;
+  margin-bottom: 20px;
+  margin-top: 160px;
+}
+
+.text-mini-block p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #505F98;
+  max-width: 539px;
+}
+
+.text-mini-block p:nth-child(3) {
+  padding-top: 10px;
+}
+
+.title {
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.title-mini-block {
+  max-width: 255px;
+}
+
+.title-mini-block p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #5D6970;
+}
+
+.title-mini-block h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #091133;
+  margin-top: 14px;
+  margin-bottom: 6px;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 154px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text-block3 {
+  margin-top: 280px;
+}
+
+.text-block3 h2 {
+  margin-bottom: 15px;
+}
+
+.bg-photo2 {
+  margin-top: 230px;
+}
+
+.wrapper2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 100px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.wrapper3 {
+  margin-top: 222px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+}
+
+.text-block4 h2 {
+  margin-bottom: 15px;
+}
+
+.wrapper4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 140px;
+  margin-top: 220px;
+}
+
+.text-block5 h2 {
+  margin-bottom: 15px;
+}
+
+.purchase-now {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  border-radius: 2px;
+  background: #111B47;
+  color: white;
+  padding: 3px 50px;
+}
+
+.purchase-now:hover {
+  background: transparent;
+  border: 2px solid #111B47;
+  color: #111B47;
+  padding: 1px 48px;
+}
+
+.paragraph-text-block5 {
+  margin-top: 10px;
+  margin-bottom: 45px;
+}
+
+.sixth-section {
+  background: url(../img/background2.png) no-repeat;
+  background-size: 100%;
+  margin-top: 170px;
+}
+
+.text-block-six {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 230px;
+  padding-bottom: 170px;
+}
+
+.title-block-six {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  color: #091133;
+  margin-bottom: 16px;
+}
+
+.paragraph-text-block {
+  max-width: 600px;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6F7CB2;
+}
+
+.text-block-six h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 66px;
+  letter-spacing: 1px;
+  color: #222F65;
+  margin-top: 35px;
+}
+
+.paragraph-text-block2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #37447E;
+  margin-bottom: 60px;
+}
+
+.paragraph-text-block3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #5D6970;
+  margin-top: 5px;
+}
+
+footer {
+  background-color: #E7ECFF;
+}
+
+.block-footer-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 40px;
+  padding-top: 60px;
+  border-bottom: 1px solid #CDD1D4;
+}
+
+.block-footer-top p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #939EA4;
+}
+
+.block-footer-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 60px;
+}
+
+.nav a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #929ECC;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
 }
