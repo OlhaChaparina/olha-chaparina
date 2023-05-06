@@ -628,4 +628,7 @@ footer {
   .sixth-section {
     background: none;
   }
+  .first-button {
+    display: none;
+  }
 }
